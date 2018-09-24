@@ -9,7 +9,9 @@ package engine;
  */
 public enum BlockedSites {
 
-	A_BADR("a-badr.com"), GUC("guc.edu.eg"), FB("facebook.com");
+	A_BADR			("a-badr.com"), 
+	GUC				("guc.edu.eg"), 
+	FB				("facebook.com");
 
 	// --- Access Methods ---------------------
 	private String value;

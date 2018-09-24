@@ -16,9 +16,8 @@ import java.util.logging.SimpleFormatter;
  */
 public class ProxyServer {
 
-	private static final Logger LOGGER = Logger.getLogger("engine.ProxyServer");
-	FileHandler serverFileHandler;
-
+	private static Logger LOGGER = Logger.getLogger("engine.ProxyServer");
+	private FileHandler serverFileHandler;
 	private ServerSocket serverSocket;
 	private int portNumber;
 

@@ -72,6 +72,8 @@ public class ProxyClientThread extends Thread {
 		try {
 			inFromClient = new BufferedReader(new InputStreamReader(clientsSocket.getInputStream()));
 			outToClientTemp = clientsSocket.getOutputStream();
+			
+			
 			LOGGER_CLINETS.info("New ProxyClientThread instace created & Run Method Called." + "\n"
 					+ "I/O streams have been created successfully.");
 			String receivedWord;
