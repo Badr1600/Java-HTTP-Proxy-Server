@@ -1,12 +1,13 @@
-/**
- * 
- */
 package engine;
 
 /**
- * @author 100703599
+ * @author Ahmed Badr
+ * 
+ *         Title: HTTP Proxy Server 
+ *         Date: 24.09.2018
  *
  */
+
 public enum BlockedSites {
 
 	A_BADR			("a-badr.com"), 

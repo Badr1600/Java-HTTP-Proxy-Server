@@ -1,12 +1,13 @@
-/**
- * 
- */
 package engine;
 
 /**
  * @author Ahmed Badr
+ * 
+ *         Title: HTTP Proxy Server 
+ *         Date: 24.09.2018
  *
  */
+
 public enum Expression {
 
 	GET_REQUEST				("GET "), 

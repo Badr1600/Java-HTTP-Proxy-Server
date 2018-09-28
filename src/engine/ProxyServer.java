@@ -1,6 +1,3 @@
-/**
- * 
- */
 package engine;
 
 import java.io.IOException;
@@ -12,8 +9,12 @@ import java.util.logging.SimpleFormatter;
 
 /**
  * @author Ahmed Badr
+ * 
+ *         Title: HTTP Proxy Server 
+ *         Date: 24.09.2018
  *
  */
+
 public class ProxyServer {
 
 	private static Logger LOGGER = Logger.getLogger("engine.ProxyServer");

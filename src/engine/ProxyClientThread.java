@@ -1,6 +1,3 @@
-/**
- * 
- */
 package engine;
 
 import java.io.BufferedReader;
@@ -21,6 +18,9 @@ import engine.Expression;
 
 /**
  * @author Ahmed Badr
+ * 
+ *         Title: HTTP Proxy Server 
+ *         Date: 24.09.2018
  *
  */
 public class ProxyClientThread extends Thread {
@@ -72,8 +72,7 @@ public class ProxyClientThread extends Thread {
 		try {
 			inFromClient = new BufferedReader(new InputStreamReader(clientsSocket.getInputStream()));
 			outToClientTemp = clientsSocket.getOutputStream();
-			
-			
+
 			LOGGER_CLINETS.info("New ProxyClientThread instace created & Run Method Called." + "\n"
 					+ "I/O streams have been created successfully.");
 			String receivedWord;
